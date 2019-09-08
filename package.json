@@ -6,6 +6,8 @@
   },
   "scripts": {
     "build": "tsc -p src",
+    "run": "node --experimental-modules out/main.js",
     "serve": "http-server"
-  }
+  },
+  "type": "module"
 }

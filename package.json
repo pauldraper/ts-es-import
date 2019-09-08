@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/node": "~12.7.0",
+    "http-server": "~0.11.0",
+    "typescript": "~3.6.0"
+  },
+  "scripts": {
+    "build": "tsc -p src",
+    "serve": "http-server"
+  }
+}
